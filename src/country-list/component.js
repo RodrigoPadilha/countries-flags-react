@@ -6,7 +6,7 @@ import { BootstrapTable, TableHeaderColumn } from "react-bootstrap-table";
 import '../../node_modules/react-bootstrap-table/css/react-bootstrap-table.css'
 //import 'react-bootstrap-table/dist/react-bootstrap-table.min.css';
 
-const URL_TO_FETCH = "https://restcountries.eu/rest/v2/";
+const URL_TO_FETCH = "https://restcountries.com/v2/";
 
 class CountryList extends Component {
   constructor(props) {
